@@ -24,10 +24,10 @@
 }
 
 .website-logo {
-  font-size: 20px;
-  width: 45px;
-  height: 45px;
-  border-radius: 12px;
+  font-size: 30px;
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
   text-align: center;
   font-weight: 900;
   color: #1d4ed8;
@@ -56,6 +56,10 @@
   margin-bottom: 0;
 }
 
+.nav-menu li {
+  margin-right: 10px; /* Adjust the margin to add space between icons */
+}
+
 .social-network-img {
   width: 30px;
   margin-left: 15px;
@@ -67,4 +71,25 @@
     border-radius: 4px;
     margin-left: 32px;
   }
+}
+
+.linkedin-icon {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  color: #0077b5;
+}
+
+.github-icon {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  color: black;
+}
+
+.youtube-icon {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  color: #ff0000;
 }

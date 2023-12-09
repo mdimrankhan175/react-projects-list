@@ -1,31 +1,42 @@
 // hai
 import './index.css'
+import {FaLinkedin, FaGithub, FaYoutube} from 'react-icons/fa'
 
 const Header = () => (
   <nav className="nav-header">
     <div className="nav-content">
-      <p className="website-logo">RA</p>
+      <img
+        className="website-logo"
+        src="https://res.cloudinary.com/dbelvmspz/image/upload/v1660558582/imran_logo_zh0c8u.jpg"
+        alt="Website Logo"
+      />
       <ul className="nav-menu">
         <li>
-          <img
-            className="social-network-img"
-            src="https://image.flaticon.com/icons/png/512/174/174857.png"
-            alt="Linked In"
-          />
+          <a
+            href="https://www.linkedin.com/in/imrankhanmohammad/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="linkedin-icon" />
+          </a>
         </li>
         <li>
-          <img
-            className="social-network-img"
-            src="https://image.flaticon.com/icons/png/512/25/25231.png"
-            alt="Git Hub"
-          />
+          <a
+            href="https://github.com/mdimrankhan175"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="github-icon" />
+          </a>
         </li>
         <li>
-          <img
-            className="social-network-img"
-            src="https://res.cloudinary.com/dmwrugc6z/image/upload/v1621681890/Background_4x_1_bzyjew.png"
-            alt="Twitter"
-          />
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaYoutube className="youtube-icon" />
+          </a>
         </li>
       </ul>
     </div>
