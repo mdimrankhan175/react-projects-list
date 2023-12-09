@@ -5,11 +5,14 @@ import {FaLinkedin, FaGithub, FaYoutube} from 'react-icons/fa'
 const Header = () => (
   <nav className="nav-header">
     <div className="nav-content">
-      <img
-        className="website-logo"
-        src="https://res.cloudinary.com/dbelvmspz/image/upload/v1660558582/imran_logo_zh0c8u.jpg"
-        alt="Website Logo"
-      />
+      <div className="logo-container">
+        <img
+          className="website-logo"
+          src="https://res.cloudinary.com/dbelvmspz/image/upload/v1660558582/imran_logo_zh0c8u.jpg"
+          alt="Website Logo"
+        />
+        <h1 className="heading">Imran Khan</h1>
+      </div>
       <ul className="nav-menu">
         <li>
           <a

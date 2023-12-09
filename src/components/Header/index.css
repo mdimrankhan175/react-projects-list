@@ -14,6 +14,13 @@
   }
 }
 
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .nav-content {
   flex: 1;
   display: flex;
@@ -25,9 +32,10 @@
 
 .website-logo {
   font-size: 30px;
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
   border-radius: 100px;
+  margin-right: 10px;
   text-align: center;
   font-weight: 900;
   color: #1d4ed8;
@@ -40,9 +48,15 @@
 @media screen and (min-width: 768px) {
   .website-logo {
     font-size: 28px;
-    width: 48px;
-    height: 48px;
+    width: 68px;
+    height: 68px;
   }
+}
+
+.heading {
+  color: #2596be;
+  font-family: 'lucida Sans';
+  font-size: 25px;
 }
 
 .nav-menu {
@@ -57,7 +71,7 @@
 }
 
 .nav-menu li {
-  margin-right: 10px; /* Adjust the margin to add space between icons */
+  margin-right: 20px; /* Adjust the margin to add space between icons */
 }
 
 .social-network-img {
@@ -74,22 +88,25 @@
 }
 
 .linkedin-icon {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   background-color: white;
   color: #0077b5;
+  border-radius: 5px;
 }
 
 .github-icon {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   background-color: white;
   color: black;
+  border-radius: 5px;
 }
 
 .youtube-icon {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   background-color: white;
   color: #ff0000;
+  border-radius: 5px;
 }
